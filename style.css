@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+
+    background-image: url(https://png.pngtree.com/background/20220724/original/pngtree-background-idul-fitri-atau-ramadhan-latar-belakang-kosong-dengan-pola-islami-picture-image_1740567.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    backdrop-filter: brightness(30%);
+    min-height: 100vh;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 100%;
+}
